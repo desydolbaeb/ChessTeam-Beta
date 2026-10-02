@@ -1,0 +1,7 @@
+.godot/
+*.tmp
+build/
+export/
+# Never commit signing credentials
+*.keystore
+*.jks

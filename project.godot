@@ -1,0 +1,41 @@
+; Engine configuration file.
+; ChessTeam Beta - Godot 4.6+
+config_version=5
+
+[application]
+config/name="ChessTeam Beta"
+run/main_scene="res://Main.tscn"
+config/features=PackedStringArray("4.6")
+config/icon="res://assets/icon.png"
+config/version="0.1.0"
+boot_splash/bg_color=Color(0.12, 0.09, 0.06, 1)
+boot_splash/image="res://assets/splash.png"
+boot_splash/show_image=true
+boot_splash/fullsize=true
+boot_splash/use_filter=true
+
+[display]
+window/size/viewport_width=400
+window/size/viewport_height=800
+window/size/window_width_override=400
+window/size/window_height_override=800
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+gl_compatibility/driver.windows="opengl3_angle"
+gl_compatibility/fallback_to_angle=true
+gl_compatibility/fallback_to_native=true
+textures/default_filters/use_nearest_mipmap_filter=false
+
+[autoload]
+GameNet="*res://scripts/GameNet.gd"
+SoundFX="*res://scripts/SoundFX.gd"
+
+[input]
+ui_cancel={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"physical_keycode":4194305,"unicode":27)]
+}
