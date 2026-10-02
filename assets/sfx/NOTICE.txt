@@ -1,0 +1,9 @@
+ChessTeam Beta — Lichess SFX sound pack notice
+
+This project downloads the original Lichess "sfx" sound set at first launch.
+Source: https://github.com/lichess-org/lila/tree/master/public/sound/sfx
+Author: Enigmahack
+License: GNU Affero General Public License v3 or later (AGPLv3+), as listed by Lichess.
+
+The project does not include Chess.com proprietary audio and does not bundle
+Lichess's non-free "standard" sound set.
